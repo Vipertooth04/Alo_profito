@@ -32,7 +32,11 @@ button:hover{
     cursor: pointer;
 }
 
-
-h1{
-    font-size: 20px;
+h1 {
+  font-size: 20pt;
+  margin: 0;
+  position: relative;
+  text-align: right;
+  padding-right: 100px;
+  padding-left: 25px;
 }
