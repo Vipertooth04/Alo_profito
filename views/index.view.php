@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/tarjetas.css">
     <link rel="stylesheet" href="styles/footer.css">
-    
     </head>
 
     <body>
@@ -24,21 +23,21 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="media/noticias2.jpg" class="d-block w-100" alt="perro1" height="700px" width="500px">
+          <img src="media/Noticias/noticias2.jpg" class="d-block w-100" alt="perro1" height="700px" width="500px">
           <div class="carousel-caption d-none d-md-block">
             <h5>MEJORARÁN INTERACCIÓN DE ROBOTS TURÍSTICOS CON PERSONAS, EN NUEVO PROYECTO DE INVESTIGACIÓN</h5>
             <p>El objetivo del estudio es buscar que tengan reacciones similares a las humanas en su relación con interlocutores</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="media/noticias3.jpg" class="d-block w-100" alt="perro2" height="700px" width="600px">
+          <img src="media/Noticias/noticias3.jpg" class="d-block w-100" alt="perro2" height="700px" width="600px">
           <div class="carousel-caption d-none d-md-block">
             <h5 id="noticia2">INTELIGENCIA ARTIFICIAL: EL ESTADO PERUANO Y CORPORACIONES NO PODRÁN USAR CHATGPT</h5>
             <p id="noticia2">Por: Julio Santisteban Pablo, docente del Departamento de Ciencia de la Computación de la Universidad Católica San Pablo, doctor en Ciencia de la de Computación, especialista en procesamiento del leguaje natural.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="media/noticias1.jpg" class="d-block w-100" alt="perro3" height="700px">
+          <img src="media/Noticias/noticias1.jpg" class="d-block w-100" alt="perro3" height="700px">
           <div class="carousel-caption d-none d-md-block">
             <h5 id="not3">SAN PABLO RECIBE DIPLOMA Y MEDALLA DE LA CULTURA POR PROYECTO PABLO BOT</h5>
             <p id="not3">Es el primer robot guía turístico del Perú y operará en 5 museos de Arequipa.</p>
@@ -58,7 +57,7 @@
     <table>
       <tr>
         <th><h1>PROFESORES</h1></th>
-        <th><img src="media/flecha.png" alt="flechita" height="100px" width="700px"></th>
+        <th><img src="media/iconos/flecha.png" alt="flechita" height="100px" width="700px"></th>
         <th><p class="cont_alo_profito">En esta página web podrás encontrar la información básica de los profesores, incluyendo sus
           horarios, especialidades, los cursos que enseñan, sus trabajos de investigación y proyectos 
           actuales. Te invitamos a explorar la página para obtener detalles específicos sobre cada 
@@ -78,7 +77,7 @@
           <p>El Dr. Alex Jesús Cuadros Vargas es un destacado investigador en el campo de la Ciencia de la Computación, con una sólida formación académica. Posee un Postdoctorado en Ciencia de la Computación obtenido en el ICMC-USP, Brasil, en 2009. Asimismo, cuenta con un Doctorado en Ciencia de la Computación y una Maestría en Ciencia de la Computación, ambos obtenidos también en el ICMC-USP, Brasil, en 2007 y 2001, respectivamente. Su línea de investigación se centra en la Computación Gráfica e Imágenes, abordando temas relevantes en este campo. Para cualquier consulta o comunicación, el Dr. Cuadros Vargas puede ser contactado a través de su correo electrónico: acuadros@ucsp.edu.pe. Su amplio bagaje académico y experiencia en investigación lo convierten en un referente en el ámbito de la Ciencia de la Computación.</p>
         </div>
         <button id="button_horario">Horario</button>
-        <div id="correo_profesor"><img src="media/mail.png">acuadros@ucsp.edu.pe</div>
+        <div id="correo_profesor"><img src="media/iconos/mail.png">acuadros@ucsp.edu.pe</div>
       </div>
     </div>
 
@@ -90,7 +89,7 @@
           <div class="card h-100">
             <div id="profe-1">
               <div class="image_profesores">
-                <img src="media/alex_cuadros.png">
+                <img src="media/Profesores/alex_cuadros.png">
               </div>
               <div class="title">
                 <h1>Dr. Alex Jesús Cuadros Vargas</h1>
@@ -106,7 +105,7 @@
           <div class="card h-100">
             <div id="profe-2">
               <div class="image_profesores">
-                <img src="media/manuel_loayza.png">
+                <img src="media/Profesores/manuel_loayza.png">
               </div>
               <div class="title">
                 <h1>Dr. Manuel Loaiza Fernández</h1>
@@ -122,7 +121,7 @@
           <div class="card h-100">
             <div id="profe-3">
               <div class="image_profesores">
-                <img src="media/regina_ticona.png">
+                <img src="media/Profesores/regina_ticona.png">
               </div>
               <div class="title">
                 <h1>Dr. Regina Paola Ticona Herrera</h1>
@@ -138,7 +137,7 @@
           <div class="card h-100">
             <div id="profe-4">
               <div class="image_profesores">
-                <img src="media/yvan_tupac.png">
+                <img src="media/Profesores/yvan_tupac.png">
               </div>
               <div class="title">
                 <h1>Dr. Yván Jesús Túpac Valdivia</h1>
@@ -154,7 +153,7 @@
           <div class="card h-100">
             <div id="profe-5">
               <div class="image_profesores">
-                <img src="media/julio_santisteban.png">
+                <img src="media/Profesores/julio_santisteban.png">
               </div>
               <div class="title">
                 <h1>Dr. Julio Omar Santisteban Pablo</h1>
@@ -170,7 +169,7 @@
           <div class="card h-100">
             <div id="profe-6">
               <div class="image_profesores">
-                <img src="media/jose_ochoa.png">
+                <img src="media/Profesores/jose_ochoa.png">
               </div>
               <div class="title">
                 <h1>Dr. Jose Eduardo Ochoa Luna</h1>
@@ -186,7 +185,7 @@
           <div class="card h-100">
             <div id="profe-7">
               <div class="image_profesores">
-                <img src="media/erick_gomez.png" >
+                <img src="media/Profesores/erick_gomez.png" >
               </div>
               <div class="title">
                 <h1>Dr. Erick Gomez Nieto</h1>
@@ -202,7 +201,7 @@
           <div class="card h-100">
             <div id="profe-8">
               <div class="image_profesores">
-                <img src="media/daniel_gutierrez.png" >
+                <img src="media/Profesores/daniel_gutierrez.png" >
               </div>
               <div class="title">
                 <h1>Dr. Daniel Alexis Gutiérrez Pachas</h1>
@@ -218,7 +217,7 @@
           <div class="card h-100">
             <div id="profe-9">
               <div class="image_profesores">
-                <img src="media/graciela_meza.png">
+                <img src="media/Profesores/graciela_meza.png">
               </div>
               <div class="title">
                 <h1>Dr. Graciela Lecireth Meza Lovón</h1>

@@ -1,7 +1,7 @@
 <footer>
       <div class="cointainer">
         <div class="column">
-          <img src="media/ucsp.png">
+          <img src="media/iconos/ucsp.png">
         </div>
         <div class="column">
             <p>Universidad Católica San Pablo</p>
@@ -10,15 +10,15 @@
             <p><a href="institucional@ucsp.edu.pe" class="email">institucional@example.com</a></p>
             <div class="imagen-container">
                 <a href="https://web.facebook.com/ucatolicasanpablo?_rdc=1&_rdr" target="_blank">
-                    <img src="media/facebook.png"></a>
+                    <img src="media/iconos/facebook.png"></a>
                 <a href="https://twitter.com/ucsp" target="_blank">
-                    <img src="media/twitter.png"></a>
+                    <img src="media/iconos/twitter.png"></a>
                 <a href="https://www.youtube.com/user/UnivCatSanPablo" target="_blank">
-                    <img src="media/youtube.png"></a>  
+                    <img src="media/iconos/youtube.png"></a>  
                 <a href="https://www.instagram.com/ucatolicasanpablo/" target="_blank">
-                    <img src="media/instagram.png"></a>  
+                    <img src="media/iconos/instagram.png"></a>  
                 <a href="https://www.linkedin.com/school/universidad-cat-lica-san-pablo/" target="_blank">
-                    <img src="media/linkedin.png"></a>
+                    <img src="media/iconos/linkedin.png"></a>
             </div>    
         </div>
         <div class="column">
