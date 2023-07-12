@@ -1,0 +1,20 @@
+
+///obtener las especialidades de todos los profesores////
+
+SELECT p.nombre AS profesor, e.especialidad AS especialidades
+FROM profesores_cs p
+JOIN profesores_especialidades pe ON p.id_profesor = pe.id_profesor
+JOIN especialidades e ON pe.id_especialidad = e.id_especialidades
+LIMIT 0, 25;
+
+//// titulos de los profesores
+SELECT DISTINCT p.nombre AS profesor,t.titulo AS titulo, t.institucion AS institucion,t.pais AS pais,pt.anio AS year
+FROM profesores_cs p
+JOIN profesores_titulos pt ON p.id_profesor = pt.id_profesor
+JOIN titulos_academicos t ON pt.id_titulo = t.id_titulo
+LIMIT 0, 25;
+
+/// obtencion de correos electronicos
+SELECT p.nombre AS profesor, c.correo_electronico AS correo
+FROM profesores_cs p
+JOIN correos_electronicos c WHERE p.id_profesor=c.id_profesor;
