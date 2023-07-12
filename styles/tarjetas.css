@@ -1,0 +1,51 @@
+.button_ver_mas{
+    margin-left: 22%;
+    background: linear-gradient(to right, #8176AF, #C0B7E8);
+    width: 50%;
+    height: 10%;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.des .button{
+    padding: 3px;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.des{
+    color: white;
+}
+
+.card{
+    background: radial-gradient(#433D60,#211E2E);
+    width: 55%;
+    display: inline-block;
+    box-shadow: 1px 1px 5px #433D60;
+    border-radius: 30px; 
+    margin: 25%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.title>h1{
+    text-align: left;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10%;
+    font-size: 1.5rem;
+}
+
+
+.image_profesores img{
+    width: 70%;
+    margin-left: 15%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px #433D60;
+  }
+  

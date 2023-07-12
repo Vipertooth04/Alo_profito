@@ -1,0 +1,36 @@
+.cointainer{
+    display: flex;
+    background-color: #202020;
+}
+.column{
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+.column:first-child {
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.column:nth-child(2){
+    line-height: 1.2;
+    margin-top: 15px;
+}
+.email{
+    color: white;
+    text-decoration: none;
+}
+.column:last-child{
+    margin-top: 20px;
+}
+
+.column:last-child .link{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.column:last-child p{
+    text-align: right;
+    line-height: 0.6;
+}

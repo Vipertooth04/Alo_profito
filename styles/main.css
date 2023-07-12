@@ -1,6 +1,38 @@
-body{
-    width: 100vw;
-    height: 100vh;
+*{
+    margin: 0px;
+    padding: 2px;
 }
 
-th{color: white;}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #302C42;
+  color: white;
+  overflow-x: hidden;
+  font-family: 'Montserrat';
+}
+
+p{
+  font-size: 10um;
+}
+
+button{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+}
+  
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+h1{
+    font-size: 20px;
+}
