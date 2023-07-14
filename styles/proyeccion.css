@@ -44,9 +44,28 @@
 }
 
 #Contenedor_listas{
-    display: inline-block;
-    position: relative;
+    height: 40vh;
+}
+
+#Titulos>h3{
+    text-align: center;
+}
+
+#Linea-investigacion>h3{
+    text-align: center;
 }
 #Contenedor_listas>div{
-    width: 32%;
+    width: 33%;
+    float: left;
+    height: 100%;
+    overflow-y: scroll;
 }
+
+#button_horario{
+    float: left;
+    background: linear-gradient(to right, #8176AF, #C0B7E8);
+    width: 20%;
+    height: 10%;
+    border-radius: 30px;
+    font-weight: bold;
+  }

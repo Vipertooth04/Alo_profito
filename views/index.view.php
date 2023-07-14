@@ -84,6 +84,7 @@
         </div>
         <div id="Contenedor_listas">
             <div id="Titulos">
+                <h3>Titulos</h3>
                 <ul>
                   <li>uno</li>
                   <li>uno</li>
@@ -95,7 +96,9 @@
                   <li>uno</li>
                 </ul>
             </div>
+            <div id="division"></div>
             <div id="Linea-investigacion">
+                <h3>Linea de investigacion</h3>
                 <ul>
                   <li>uno</li>
                   <li>uno</li>
