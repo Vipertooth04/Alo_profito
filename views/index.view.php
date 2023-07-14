@@ -88,6 +88,7 @@
       <div id="mostrar">
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-4">
+        <?php require 'partials/tarjetas.view.php' ?>
         <div class="col">
           <div class="card h-100">
             <div id="profe-1">
