@@ -20,44 +20,9 @@
     <!--cualquier cosa-->
     <body>
     <?php require 'partials/header.view.php' ?>
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="media/Noticias/noticias2.jpg" class="d-block w-100" alt="perro1" height="700px" width="500px">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>MEJORARÁN INTERACCIÓN DE ROBOTS TURÍSTICOS CON PERSONAS, EN NUEVO PROYECTO DE INVESTIGACIÓN</h5>
-            <p>El objetivo del estudio es buscar que tengan reacciones similares a las humanas en su relación con interlocutores</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="media/Noticias/noticias3.jpg" class="d-block w-100" alt="perro2" height="700px" width="600px">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 id="noticia2">INTELIGENCIA ARTIFICIAL: EL ESTADO PERUANO Y CORPORACIONES NO PODRÁN USAR CHATGPT</h5>
-            <p id="noticia2">Por: Julio Santisteban Pablo, docente del Departamento de Ciencia de la Computación de la Universidad Católica San Pablo, doctor en Ciencia de la de Computación, especialista en procesamiento del leguaje natural.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="media/Noticias/noticias1.jpg" class="d-block w-100" alt="perro3" height="700px">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 id="not3">SAN PABLO RECIBE DIPLOMA Y MEDALLA DE LA CULTURA POR PROYECTO PABLO BOT</h5>
-            <p id="not3">Es el primer robot guía turístico del Perú y operará en 5 museos de Arequipa.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    <?php foreach ($carruseles as $carrusel) {
+            require 'partials/carrusel.view.php';
+    }       ?>  
     
     <table>
       <tr>

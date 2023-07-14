@@ -3,6 +3,36 @@ $servername = "localhost";  // Cambia localhost si es necesario
 $dbname = "profesores_san_pablo";  // Reemplaza con el nombre de tu base de datos
 
 try {
+
+    $carruseles = [
+        [
+            'id' => 1,
+            'titulo' => "MEJORARÁN INTERACCIÓN DE ROBOTS TURÍSTICOS CON PERSONAS, EN NUEVO PROYECTO DE INVESTIGACIÓN", 
+            'descripcion' => "El objetivo del estudio es buscar que tengan reacciones similares a las humanas en su relación con interlocutores", 
+            'imagen' => "media/Noticias/noticias2.jpg",
+        ],
+        [
+            'id' => 2,
+            'titulo' => "INTELIGENCIA ARTIFICIAL: EL ESTADO PERUANO Y CORPORACIONES NO PODRÁN USAR CHATGPT", 
+            'descripcion' => "Por: Julio Santisteban Pablo, docente del Departamento de Ciencia de la Computación de la Universidad Católica San Pablo, doctor en Ciencia de la de Computación, especialista en procesamiento del leguaje natural.", 
+            'imagen' => "media/Noticias/noticias3.jpg",
+        ],
+        [
+            'id' => 3,
+            'titulo' => "SAN PABLO RECIBE DIPLOMA Y MEDALLA DE LA CULTURA POR PROYECTO PABLO BOT", 
+            'descripcion' => "Es el primer robot guía turístico del Perú y operará en 5 museos de Arequipa.", 
+            'imagen' => "media/Noticias/noticias1.jpg",
+        ]
+    ];
+    
+    if (array_key_exists( "carrusel_id", $_GET)) {
+        
+        // Reemplazar por una lógica de select en la BD
+        $carrusel_actual = array_values(array_filter($carruseles, function($carrusel) {
+            return strval($carrusel['id']) === $_GET['carrusel_id'];
+        }))[0];
+    }
+
     $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8mb4", "root");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
