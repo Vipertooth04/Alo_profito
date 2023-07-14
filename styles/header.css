@@ -1,0 +1,36 @@
+.navbar {
+    background-color: rgba(51, 51, 51, 0.5);
+    overflow: hidden;
+  }
+#logo{
+    text-align: left;
+    padding-left: 10px;
+}
+ .navbar a{
+    text-align: right;
+    line-height: normal;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 9px;
+    text-decoration: none;
+    padding: 9px;
+
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    opacity: 0.5;
+    margin: 10px;
+  }
+
+  .arrow{
+    width: 0;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
+      border-left: 50px solid white;
+      padding-left: 10px;
+      transform: rotate(0deg);
+  }
