@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/proyeccion.css">
     </head>
     <!--En el Carousel el objetivo es tambien que este se pueda extraer mediante templates debido a el codigo repetitivo que presenta-->
+    <!--cualquier cosa-->
     <body>
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
