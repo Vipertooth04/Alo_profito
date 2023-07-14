@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/proyeccion.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/carousel.css">
     </head>
     <!--En el Carousel el objetivo es tambien que este se pueda extraer mediante templates debido a el codigo repetitivo que presenta-->
     <!--cualquier cosa-->

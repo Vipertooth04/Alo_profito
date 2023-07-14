@@ -1,7 +1,15 @@
 .carousel-caption{
-    color:black;
     text-align: center;
-  }
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.carousel-caption>h5 {
+    font-weight: bold;
+}
+
+.carousel-caption>p {
+    font-size: large;
+}
 
 .sub{
     font-size: 20pt;
