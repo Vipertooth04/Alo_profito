@@ -1,5 +1,5 @@
 <?php
     require "controllers/index.php";
-    if (urlIs("Proyecto_Final/")){
+    if (urlIs("Alo_profito/")){
         echo("Holaaa");
     }

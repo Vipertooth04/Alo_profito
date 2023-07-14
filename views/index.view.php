@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/tarjetas.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/proyeccion.css">
     </head>
-
+    <!--En el Carousel el objetivo es tambien que este se pueda extraer mediante templates debido a el codigo repetitivo que presenta-->
     <body>
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
@@ -68,6 +69,7 @@
 
     <div id="resultado">
       <div id="Imagen-izquierda">
+        <img src="media/Profesores/alex_cuadros.png" alt="">
       </div>
       <div id="Informacion">
         <div id="Nombre_profesor">
