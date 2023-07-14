@@ -40,3 +40,11 @@ h1 {
   padding-right: 100px;
   padding-left: 25px;
 }
+
+.Linea-Divisoria {
+  width: 90vw;
+  margin-left: 5vw;
+  height: 2px;
+  background-color: white;
+  border-radius: 10% 0;
+}

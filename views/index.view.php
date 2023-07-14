@@ -87,6 +87,7 @@
       </div>
     </div>
 
+    <div class="Linea-Divisoria"></div>
     <div id="Parte_Luque_Arroyo">
       <div id="mostrar">
       </div>
