@@ -1,5 +1,6 @@
 .cointainer{
     display: flex;
+    justify-content: center;
     background-color: #202020;
 }
 .column{
@@ -10,6 +11,7 @@
 .column:first-child {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 9px;
     margin-bottom: 9px;
 }
@@ -17,7 +19,7 @@
     line-height: 1.2;
     margin-top: 15px;
 }
-.email{
+.email-link{
     color: white;
     text-decoration: none;
 }
@@ -33,4 +35,17 @@
 .column:last-child p{
     text-align: right;
     line-height: 0.6;
+}
+@media (max-width: 600px){
+    .cointainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .column{
+        padding: 10px;
+        text-align: center;
+    }
+    .column:last-child p {
+        text-align: center;
+    }
 }
