@@ -91,24 +91,10 @@
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <?php require 'partials/tarjetas.view.php' ?>
-
       </div>
     </div>
     
     <?php require 'partials/footer.view.php' ?>
-
-
-    <script>
-      $(document).ready(function() {
-            $.ajax({
-                url: 'Database.php',  // Reemplaza 'tuscript.php' con el nombre de tu archivo PHP
-                dataType: 'html',
-                success: function(response) {
-                    $('#resultado').html(response);
-                }
-            });
-        });
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script>
