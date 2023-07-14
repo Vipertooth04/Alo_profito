@@ -82,6 +82,33 @@
         <div id="Descripcion_profesor">
           <p>El Dr. Alex Jesús Cuadros Vargas es un destacado investigador en el campo de la Ciencia de la Computación, con una sólida formación académica. Posee un Postdoctorado en Ciencia de la Computación obtenido en el ICMC-USP, Brasil, en 2009. Asimismo, cuenta con un Doctorado en Ciencia de la Computación y una Maestría en Ciencia de la Computación, ambos obtenidos también en el ICMC-USP, Brasil, en 2007 y 2001, respectivamente. Su línea de investigación se centra en la Computación Gráfica e Imágenes, abordando temas relevantes en este campo. Para cualquier consulta o comunicación, el Dr. Cuadros Vargas puede ser contactado a través de su correo electrónico: acuadros@ucsp.edu.pe. Su amplio bagaje académico y experiencia en investigación lo convierten en un referente en el ámbito de la Ciencia de la Computación.</p>
         </div>
+        <div id="Contenedor_listas">
+            <div id="Titulos">
+                <ul>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                </ul>
+            </div>
+            <div id="Linea-investigacion">
+                <ul>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                  <li>uno</li>
+                </ul>
+            </div>
+        </div>
         <button id="button_horario">Horario</button>
         <div id="correo_profesor"><img src="media/iconos/mail.png">acuadros@ucsp.edu.pe</div>
       </div>

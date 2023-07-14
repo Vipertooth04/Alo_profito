@@ -33,3 +33,20 @@
     float: right;
     margin-right: 5%;
 }
+
+#Nombre_profesor{
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+#Descripcion_profesor{
+    font-size: 1rem;
+}
+
+#Contenedor_listas{
+    display: inline-block;
+    position: relative;
+}
+#Contenedor_listas>div{
+    width: 32%;
+}

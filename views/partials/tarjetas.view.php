@@ -12,7 +12,7 @@
           <h2>Linea de investigacion</h2>
           <p>
             <?php foreach($prof['especialidades'] as $esp) { ?>
-              <?= $esp ?> ,
+              <?= $esp ?>-
             <?php } ?>
             .
           </p>

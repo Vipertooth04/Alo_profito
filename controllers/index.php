@@ -11,7 +11,7 @@ try {
     $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // Especialidad
-    $stmt2 = $conn->query("SELECT p.nombre AS profesor, e.especialidad AS especialidades
+    $stmt2 = $conn->query("SELECT DISTINCT p.nombre AS profesor, e.especialidad AS especialidades
     FROM profesores_cs p
     JOIN profesores_especialidades pe ON p.id_profesor = pe.id_profesor
     JOIN especialidades e ON pe.id_especialidad = e.id_especialidades;
