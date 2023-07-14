@@ -14,8 +14,7 @@ try {
     $stmt2 = $conn->query("SELECT p.nombre AS profesor, e.especialidad AS especialidades
     FROM profesores_cs p
     JOIN profesores_especialidades pe ON p.id_profesor = pe.id_profesor
-    JOIN especialidades e ON pe.id_especialidad = e.id_especialidades
-    LIMIT 0, 25;
+    JOIN especialidades e ON pe.id_especialidad = e.id_especialidades;
     ");
     $especialidad = $stmt2->fetchAll(PDO::FETCH_ASSOC);
 
