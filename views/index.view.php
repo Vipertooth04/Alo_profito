@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="styles/tarjetas.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/proyeccion.css">
+    <link rel="stylesheet" href="styles/header.css">
     </head>
     <!--En el Carousel el objetivo es tambien que este se pueda extraer mediante templates debido a el codigo repetitivo que presenta-->
     <!--cualquier cosa-->
     <body>
+    <?php require 'partials/header.view.php' ?>
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -59,7 +61,7 @@
     <table>
       <tr>
         <th><h1>PROFESORES</h1></th>
-        <th><img src="media/iconos/flecha.png" alt="flechita" height="100px" width="700px"></th>
+        <th><div class="arrow"></div></th>
         <th><p class="cont_alo_profito">En esta página web podrás encontrar la información básica de los profesores, incluyendo sus
           horarios, especialidades, los cursos que enseñan, sus trabajos de investigación y proyectos 
           actuales. Te invitamos a explorar la página para obtener detalles específicos sobre cada 
