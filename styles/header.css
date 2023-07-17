@@ -1,6 +1,11 @@
 .navbar {
-    background-color: rgba(51, 51, 51, 0.5);
+    top: 0;
+    background-color: #202020;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    opacity: 1;
   }
 #logo{
     text-align: left;
@@ -34,3 +39,4 @@
       padding-left: 10px;
       transform: rotate(0deg);
   }
+

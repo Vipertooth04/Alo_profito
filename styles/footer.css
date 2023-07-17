@@ -1,7 +1,9 @@
 .cointainer{
+    position: absolute;
     display: flex;
     justify-content: center;
     background-color: #202020;
+    width: 100%;
 }
 .column{
     flex: 1;

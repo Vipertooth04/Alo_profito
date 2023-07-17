@@ -15,27 +15,28 @@
     <link rel="stylesheet" href="styles/proyeccion.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/carousel.css">
-    </head>
+    <link rel="stylesheet" href="styles/DT.css">
+  </head>
     <!--En el Carousel el objetivo es tambien que este se pueda extraer mediante templates debido a el codigo repetitivo que presenta-->
     <!--cualquier cosa-->
-    <body>
+  <body>
     <?php require 'partials/header.view.php' ?>
     <!--
       <?php foreach ($carruseles as $carrusel) {
               require 'partials/carrusel.view.php';
       }?>
     -->
-    <table>
-      <tr>
-        <th><h1>PROFESORES</h1></th>
-        <th><div class="arrow"></div></th>
-        <th><p class="cont_alo_profito">En esta página web podrás encontrar la información básica de los profesores, incluyendo sus
-          horarios, especialidades, los cursos que enseñan, sus trabajos de investigación y proyectos 
-          actuales. Te invitamos a explorar la página para obtener detalles específicos sobre cada 
-          docente y su labor dentro de la institución eductiva.</p></th>
-      </tr>
-    </table>
-    <div class="sub">ALO PROFITO</div>
+    <div id="DT">
+      <div id="DT-titulo">
+        <p class="animated-text">Welcome <br> to<br> Alo Profito</p>
+      </div>
+      <div id="DT-descripcion">
+        <img src="media/Banner/Prueba1.jpeg" alt="noticia1">
+      </div>
+
+      
+    </div>
+
 
     <div id="resultado">
       <div id="Imagen-izquierda">
@@ -84,7 +85,7 @@
       </div>
     </div>
 
-    <div class="Linea-Divisoria"></div>
+    <!--<div class="Linea-Divisoria"></div>-->
     <div id="Parte_Luque_Arroyo">
       <div id="mostrar">
       </div>
@@ -96,14 +97,5 @@
     <?php require 'partials/footer.view.php' ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script>
-      function showProfe(btn){
-        let query_profe = '#profe-' + btn.getAttribute("profe_id");
-        console.log(query_profe);
-        let profe_objeto = document.querySelector(query_profe);
-        // let description = profe_objeto.querySelector('.description');
-        document.querySelector('#mostrar').innerText = profe_objeto.innerText;
-      }
-    </script>
   </body>
 </html>
