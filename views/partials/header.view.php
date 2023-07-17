@@ -1,5 +1,5 @@
-
-<div class="navbar">
+<body>
+    <div class="navbar">
         <img id="logo" src="media/iconos/logo-departamento.png" >
         <div class="opciones">
             <a href="#intro">Inicio</a>
@@ -7,3 +7,4 @@
             <a href="#contenido">Contáctanos</a>
         </div>
     </div>
+</body>
