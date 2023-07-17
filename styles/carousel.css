@@ -108,18 +108,19 @@
 }
 
 .carousel-item__title {
-    margin: 15px 0 0 0;
+    padding-left: 15%;
+    margin: 15px -30px 0px 0;
     font-family: 'Playfair Display', serif;
-    font-size: 44px;
-    line-height: 45px;
-    letter-spacing: 3px;
+    font-size: 25.5px;
+    line-height: 40px;
+    letter-spacing: 2px;
     font-weight: 700;
     color: #2C2C2C;
     transform: translateY(25%);
     opacity: 0;
     visibility: hidden;
     transition: 0.6s all ease-in-out;
-    text-align: left;
+    text-align: center;
 }
 
 .carousel-item__description {
@@ -133,9 +134,10 @@
     color: #7e7e7e;
     line-height: 22px;
     margin-bottom: 35px;
+    text-align: center
 }
 
-.carousel-item--1 .carousel-item__image{
+/*.carousel-item--1 .carousel-item__image{
   background-image: url('https://images.pexels.com/photos/991012/pexels-photo-991012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
@@ -147,12 +149,10 @@
 .carousel-item--3 .carousel-item__image{
   background-image: url('https://images.pexels.com/photos/92733/pexels-photo-92733.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
 }
+*/
 
 
 
-.carousel-item__container{
-
-}
 
 .carousel-item__btn {
     width: 35%;

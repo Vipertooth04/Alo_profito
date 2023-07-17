@@ -25,11 +25,11 @@
     position: relative;
 }
 
-#DT-descripcion::after{
-    content: "Encuentra información de profesores: horarios, especialidades, cursos, investigación y proyectos.";
+#DT-descripcion #af{
+    /*content: "Encuentra información de profesores: horarios, especialidades, cursos, investigación y proyectos.";*/
     position: absolute;
     top: 50%;
-    right: 5%;
+    right: -10%;
     transform: translate(-10%,-50%);
     width: 50%;
     text-align: left;
@@ -74,7 +74,7 @@
     }
     100%{
         opacity: 1;
-        right: 5%;
+        right: -10%;
     }
 }
 

@@ -35,6 +35,7 @@
       </div>
       <div id="DT-descripcion">
         <img src="media/Banner/Prueba1.jpeg" alt="noticia1">
+        <p id = "af">Encuentra información de profesores: horarios, especialidades, cursos, investigación y proyectos.</p>
       </div>
 
       
@@ -54,34 +55,38 @@
         </span>
       </div>
       <div class="carousel-item carousel-item--1">
-        <div class="carousel-item__image"></div>
+        <div class="carousel-item__image">
+          <img src="media/Noticias/noticias2.jpg">
+        </div>
         <div class="carousel-item__info">
           <div class="carousel-item__container">
-            <h1 class="carousel-item__title">Le tour</h1>
-            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <h1 class="carousel-item__title">MEJORARÁN INTERACCIÓN DE ROBOTS TURÍSTICOS CON PERSONAS, EN NUEVO PROYECTO DE INVESTIGACIÓN</h1>
+            <p class="carousel-item__description">El objetivo del estudio es buscar que tengan reacciones similares a las humanas en su relación con interlocutores.</p>
           </div>
         </div>
       </div>
       <div class="carousel-item carousel-item--2">
-        <div class="carousel-item__image"></div>
+        <div class="carousel-item__image">
+        <img src="media/Noticias/noticias3.jpg">
+        </div>
         <div class="carousel-item__info">
           <div class="carousel-item__container">
-            <h1 class="carousel-item__title">Minimal window</h1>
-            <p class="carousel-item__description">Clear Glass Window With Brown and White Wooden Frame iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <h1 class="carousel-item__title">INTELIGENCIA ARTIFICIAL: EL ESTADO PERUANO Y CORPORACIONES NO PODRÁN USAR CHATGPT</h1>
+            <p class="carousel-item__description">Por: Julio Santisteban Pablo, docente del Departamento de Ciencia de la Computación de la Universidad Católica San Pablo, doctor en Ciencia de la de Computación, especialista en procesamiento del leguaje natural.</p>
           </div>
         </div>
       </div>
       <div class="carousel-item carousel-item--3">
-        <div class="carousel-item__image"></div>
+        <div class="carousel-item__image">
+        <img src="media/Noticias/noticias1.jpg">
+        </div>
         <div class="carousel-item__info">
           <div class="carousel-item__container">
-            <h1 class="carousel-item__title">Palms</h1>
-            <p class="carousel-item__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <h1 class="carousel-item__title">SAN PABLO RECIBE DIPLOMA Y MEDALLA DE LA CULTURA POR PROYECTO PABLO BOT</h1>
+            <p class="carousel-item__description">Es el primer robot guía turístico del Perú y operará en 5 museos de Arequipa.</p>
           </div>
         </div>
       </div>
-      
-
     </div>
   </div>
 
