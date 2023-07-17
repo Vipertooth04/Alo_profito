@@ -37,7 +37,7 @@ try {
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // profesores
-    $stmt = $conn->query("SELECT nombre, descripcion, ruta_imagen FROM profesores_cs");
+    $stmt = $conn->query("SELECT id_profesor, nombre, descripcion, ruta_imagen FROM profesores_cs");
     $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // Especialidad
@@ -65,6 +65,7 @@ try {
     $objetos_profesores = array();
     foreach ($results as $row) {
         $profesor = array(
+            'id'=>$row['id_profesor'],
             'nombre' => $row['nombre'],
             'descripcion' => $row['descripcion'],
             'imagen' => $row['ruta_imagen'],
