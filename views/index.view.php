@@ -20,10 +20,11 @@
     <!--cualquier cosa-->
     <body>
     <?php require 'partials/header.view.php' ?>
-    <?php foreach ($carruseles as $carrusel) {
-            require 'partials/carrusel.view.php';
-    }       ?>  
-    
+    <!--
+      <?php foreach ($carruseles as $carrusel) {
+              require 'partials/carrusel.view.php';
+      }?>
+    -->
     <table>
       <tr>
         <th><h1>PROFESORES</h1></th>
