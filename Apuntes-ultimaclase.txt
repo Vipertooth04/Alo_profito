@@ -1,0 +1,31 @@
+- Agregar titulo y descripcion
+- Etiqueta fav icon
+- Responsive
+- iconos svg https://icons8.com
+= Inspiracion https://dribbble.com
+- https://realfavicongenerator.net
+- La fuente descargarla
+	- https://www.fontsquirrel.com/tools/webfont-generator
+	para convertir la fuente y entrega 4 tipos mas
+
+- Lighthouse en ka carga
+
+///// Lanzamiento /////
+
+- Deploy: Parte en la que la pagina va a estar funcionando
+- Hosting: Es como un alquiler para alojar el sitio web
+	- Hostinger: mas profesional
+	- Vercel: https://vercel.com/new/templates
+	- Free Hosting
+	- infinityfree: Gratis https://www.infinityfree.com
+	- Cpanel
+	- FTP Permite subir los archivos al servidor 
+		- winscp
+- Dominio: CDN 
+	- GoDaddy: Caro y caro pues que mas 
+	- Porkbun: Gratis y fijo - https://porkbun.com/tld/inc
+	- Punto Pe: https://punto.pe
+
+- Inspiracion: https://www.danilodemarco.com/
+
+- Base de datos: infinityfree

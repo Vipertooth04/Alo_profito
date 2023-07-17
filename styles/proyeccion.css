@@ -1,46 +1,50 @@
 #resultado{
     width: 100%;
     height: 100vh;
-
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    overflow-y: scroll;
 }
 
 #Imagen-izquierda{
     width: 40%;
     height: 60vh;
     margin-left: 1%;
-    float: left;
 }
 
 #Imagen-izquierda>img{
     width: 100%;
     height: 150%;
     border-radius: 35% 8%;
-    margin-left: 10%;
 }
 
 #Informacion{
     width: 50%;
-    margin-left: 46%;
+    margin-left: 3%;
     position: relative;
+    flex-grow: 4;
 }
 
 #button_horario{
     margin-left: 5%;
-    margin-top: 1.3%;
 }
 
 #correo_profesor{
-    float: right;
     margin-right: 5%;
 }
 
+#correo_profesor>img{
+    width: 5em;
+}
 #Nombre_profesor{
     font-weight: bold;
     font-size: 5rem;
+    line-height: normal;
 }
 
 #Descripcion_profesor{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #Contenedor_listas{
@@ -54,15 +58,24 @@
 #Linea-investigacion>h3{
     text-align: center;
 }
+#Contenedor_listas{
+    display: flex;
+    height: 35vh;
+}
 #Contenedor_listas>div{
     width: 33%;
-    float: left;
-    height: 100%;
-    overflow-y: scroll;
+
 }
 
+#Botones{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 #button_horario{
-    float: left;
     background: linear-gradient(to right, #8176AF, #C0B7E8);
     width: 20%;
     height: 10%;

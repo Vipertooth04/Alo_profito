@@ -50,7 +50,7 @@
         <div id="Contenedor_listas">
             <div id="Titulos">
                 <h3>Titulos</h3>
-                <ul>
+                <ol>
                   <li>uno</li>
                   <li>uno</li>
                   <li>uno</li>
@@ -59,12 +59,12 @@
                   <li>uno</li>
                   <li>uno</li>
                   <li>uno</li>
-                </ul>
+                </ol>
             </div>
             <div id="division"></div>
             <div id="Linea-investigacion">
-                <h3>Linea de investigacion</h3>
-                <ul>
+                <h3>Especialidades</h3>
+                <ol>
                   <li>uno</li>
                   <li>uno</li>
                   <li>uno</li>
@@ -73,12 +73,13 @@
                   <li>uno</li>
                   <li>uno</li>
                   <li>uno</li>
-                  <li>uno</li>
-                </ul>
+                </ol>
             </div>
         </div>
-        <button id="button_horario">Horario</button>
-        <div id="correo_profesor"><img src="media/iconos/mail.png">acuadros@ucsp.edu.pe</div>
+        <div id="Botones">
+          <button id="button_horario">Horario</button>
+          <div id="correo_profesor"><img src="media/iconos/mail.png">acuadros@ucsp.edu.pe</div>
+        </div>
       </div>
     </div>
 
