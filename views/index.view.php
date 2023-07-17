@@ -31,7 +31,7 @@
     -->
     <div id="DT">
       <div id="DT-titulo">
-        <p class="animated-text">Welcome <br> to<br> Alo Profito</p>
+        <p class="animated-text">Bienvenidos a Alo Profito</p>
       </div>
       <div id="DT-descripcion">
         <img src="media/Banner/Prueba1.jpeg" alt="noticia1">
@@ -100,7 +100,7 @@
           Dr. Alex Jesús Cuadros Vargas
         </div>
         <div id="Descripcion_profesor">
-          <p>El Dr. Alex Jesús Cuadros Vargas es un destacado investigador en el campo de la Ciencia de la Computación, con una sólida formación académica. Posee un Postdoctorado en Ciencia de la Computación obtenido en el ICMC-USP, Brasil, en 2009. Asimismo, cuenta con un Doctorado en Ciencia de la Computación y una Maestría en Ciencia de la Computación, ambos obtenidos también en el ICMC-USP, Brasil, en 2007 y 2001, respectivamente. Su línea de investigación se centra en la Computación Gráfica e Imágenes, abordando temas relevantes en este campo. Para cualquier consulta o comunicación, el Dr. Cuadros Vargas puede ser contactado a través de su correo electrónico: acuadros@ucsp.edu.pe. Su amplio bagaje académico y experiencia en investigación lo convierten en un referente en el ámbito de la Ciencia de la Computación.</p>
+          <p>El Dr. Alex Jesús Cuadros Vargas es un destacado investigador en el campo de la Ciencia de la Computación, con una sólida formación académica. Posee un Postdoctorado en Ciencia de la Computación obtenido en el ICMC-USP, Brasil, en 2009. Asimismo, cuenta con un Doctorado en Ciencia de la Computación y una Maestría en Ciencia de la Computación, ambos obtenidos también en el ICMC-USP, Brasil, en 2007 y 2001, respectivamente. Su línea de investigación se centra en la Computación Gráfica e Imágenes, abordando temas relevantes en este campo.</p>
         </div>
         <div id="Contenedor_listas">
             <div id="Titulos">
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div id="Botones">
-          <button id="button_horario">Horario</button>
+          <!--<button id="button_horario">Horario</button>-->
           <div id="correo_profesor"><img src="media/iconos/mail.png">acuadros@ucsp.edu.pe</div>
         </div>
       </div>

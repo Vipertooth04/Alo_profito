@@ -14,11 +14,10 @@
     font-family:'Open Sans';
     position: absolute;
     font-size: 9vw;
-    text-align: left;
-    z-index: 3;
-    width: 50%;
-    margin-left: 3%;
+    text-align: center;
+    width: 100%;
     font-weight: bold;
+    z-index: 3;
 }
 
 #DT-descripcion{
@@ -28,13 +27,13 @@
 #DT-descripcion #af{
     /*content: "Encuentra información de profesores: horarios, especialidades, cursos, investigación y proyectos.";*/
     position: absolute;
-    top: 50%;
-    right: -10%;
+    top: 85%;
+    right: 13%;
     transform: translate(-10%,-50%);
     width: 50%;
     text-align: left;
     font-size: 2em;
-    width: 20ch;
+    width: 50ch;
     animation-name: descripcion;
     animation-duration: 2s;
     font-weight: lighter;
@@ -42,9 +41,8 @@
 
 #DT-descripcion>img{
     z-index: 0;
-    width: 45vw;
+    width: 100vw;
     height: 70%;
-    margin-left: 115%;
 }
 
 .animated-text {
@@ -74,7 +72,7 @@
     }
     100%{
         opacity: 1;
-        right: -10%;
+        right: 13%;
     }
 }
 
