@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 #DT{
     display: flex;
     flex-direction: row;
@@ -6,16 +7,18 @@
     flex-wrap: nowrap;
     background-color: #302C42;
     justify-content: flex-start;
-    height: 92vh;
+    height: 100vh;
 }
 
 #DT-titulo{
+    font-family:'Open Sans';
     position: absolute;
-    font-size: 10em;
+    font-size: 9vw;
     text-align: left;
     z-index: 3;
     width: 50%;
     margin-left: 3%;
+    font-weight: bold;
 }
 
 #DT-descripcion{

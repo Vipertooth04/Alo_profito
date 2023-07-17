@@ -85,4 +85,22 @@
     border-radius: 30px;
     font-weight: bold;
     flex: 1;
+}
+
+
+
+  #resultado::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  #resultado::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color de fondo de la pista de desplazamiento */
+  }
+  
+  #resultado::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del pulgar de la barra de desplazamiento */
+  }
+  
+  #resultado::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del pulgar de la barra de desplazamiento al pasar el cursor */
   }
