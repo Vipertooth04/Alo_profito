@@ -1,13 +1,9 @@
-<body>
-    <div class="navbar">
+
+<div class="navbar">
         <img id="logo" src="media/iconos/logo-departamento.png" >
         <div class="opciones">
-            <a href="http://localhost/Alo_profito/">Inicio</a>
-            <a href="https://cs.ucsp.edu.pe/acerca-de/">Acerca de</a>
-            <a href="https://cs.ucsp.edu.pe/pregrado/">Pregrado</a>
-            <a href="https://cs.ucsp.edu.pe/postgrado/">Postgrado</a>
-            <a href="https://cs.ucsp.edu.pe/investigacion/">Investigación e innovación (RICS)</a>
-            <a href="https://cs.ucsp.edu.pe/proyeccion-social/">Proyección social</a>
+            <a href="#intro">Inicio</a>
+            <a href="#Parte_Luque_Arroyo">STAFF</a>
+            <a href="#contenido">Contáctanos</a>
         </div>
     </div>
-</body>
