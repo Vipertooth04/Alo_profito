@@ -1,5 +1,5 @@
 <footer>
-      <div class="cointainer">
+      <div class="cointainer" id = "contenido">
         <div class="column">
           <img src="media/iconos/ucsp.png">
         </div>
