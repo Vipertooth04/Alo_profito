@@ -8,31 +8,33 @@
 }
 
 #body-corrousel{
-    margin: 0;
+    margin: auto;
     padding: 0;
     width: 100%;
     height: 100vh;
+    max-width: 92vw;
+    max-height: 95vh;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
   -webkit-justify-content: center;
     align-items: center;
   -webkit-align-items: center;
-  color: black;
+  color: white;
   text-align: left;
+
 }
 
 #body-corrousel {
-    background-color: #eaeaea;
+    background-color: #302C42;
 }
 
 
 .carousel {
+  padding: 10px;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
-  max-width: 900px;
-  max-height: 550px;   
   overflow: hidden;
   position: relative;
 }
@@ -44,10 +46,10 @@
     height: 100%;
     align-items: center;
     justify-content: flex-end;
-      -webkit-align-items: center;
+    -webkit-align-items: center;
     -webkit-justify-content: flex-end;
     position: relative;
-    background-color: #fff;
+    background-color: #2C2C2C;
     flex-shrink: 0;
    -webkit-flex-shrink: 0;
     position: absolute;
@@ -116,13 +118,13 @@
 
 .carousel-item__title {
     padding-left: 15%;
-    margin: 15px -30px 0px 0;
+    margin: 10px 0px 0px 0;
     font-family: 'Playfair Display', serif;
-    font-size: 25.5px;
+    font-size: 2vw;
     line-height: 40px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-weight: 700;
-    color: #2C2C2C;
+    color: whitesmoke;
     transform: translateY(25%);
     opacity: 0;
     visibility: hidden;
@@ -135,13 +137,12 @@
     opacity: 0;
     visibility: hidden;
     transition: 0.6s all ease-in-out;
-    margin-top: 35px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    color: #7e7e7e;
-    line-height: 22px;
-    margin-bottom: 35px;
-    text-align: center
+    font-size: 1.3vw;
+    color: #b4b3b3;
+    margin: 10px 30px 0px 0;
+    text-align: center;
+    line-height: normal;
 }
 
 /*.carousel-item--1 .carousel-item__image{
@@ -235,4 +236,18 @@
   transform: translateX(80%);
   transition: 1s all ease-in-out;
   
+}
+
+@media (max-width:1000px){
+
+  .carousel-item__title{
+    font-size: 3vw;
+    line-height: normal;
+  }
+
+  .carousel-item__description{
+    font-size: 3vw;
+    line-height: normal;
+  }
+
 }

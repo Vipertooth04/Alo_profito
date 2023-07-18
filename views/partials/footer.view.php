@@ -25,7 +25,6 @@
             <p><a href="https://cs.ucsp.edu.pe/?_ga=2.40720226.1554117585.1689109213-541285207.1675818269#" class="link">TRABAJA CON NOSOTROS</a>
             <p><a href="https://ucsp.edu.pe/politica-de-privacidad/" class="link">POLÍTICA DE PRIVACIDAD</a>
             <p><a href="https://ucsp.edu.pe/libro-de-reclamaciones/" class="link">LIBRO DE RECLAMACIONES</a>
-            <p><a href="https://sugerencias.ucsp.edu.pe/" class="link">BUZÓN DE SUGERENCIAS</a>
             <p><a href="https://ucsp.edu.pe/tramites" class="link">TRÁMITES UNIVERSITARIOS</a>
             <p><a href="https://ucsp.edu.pe/defensoria-universitaria" class="link">DEFENSORÍA UNIVERSITARIA</a>
             <p><a href="https://ucsp.edu.pe/derechos-arco" class="link">DERECHOS ARCO</a>

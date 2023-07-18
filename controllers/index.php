@@ -2,6 +2,8 @@
 $servername = "localhost";  // Cambia localhost si es necesario
 $dbname = "profesores_san_pablo";  // Reemplaza con el nombre de tu base de datos
 
+
+
 try {
 
     $carruseles = [
@@ -95,6 +97,21 @@ try {
         $objetos_profesores[] = $profesor;
         // Aquí puedes utilizar el objeto $profesor según tus necesidades
     }
+
+    $primer_profesor = $objetos_profesores[0];
+    
+    var_dump($_GET);
+    
+    if (array_key_exists("prof_id", $_GET)) {
+        $prof_id = $_GET['prof_id'];
+        foreach ($objetos_profesores as $aux) {
+            if ($aux['id'] === $prof_id) {
+                $primer_profesor = $aux;
+            }
+        }
+    }
+    
+
 
 } catch (PDOException $e) {
     echo "Error de conexión: " . $e->getMessage();

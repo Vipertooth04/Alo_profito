@@ -1,4 +1,6 @@
+
 <?php foreach ($objetos_profesores as $prof) { ?>
+  <form action="/router.php" method="get">
   <div class="col">
     <div class="card h-100">
       <div id="profe-6">
@@ -18,7 +20,9 @@
           </p>
         </div>
       </div>
-      <button profe_id="6" onclick="showProfe(this)" class="button_ver_mas">Ver más</button>
+      <input type="hidden" value="<?= $prof['id'] ?>" name="prof_id">
+      <button type="submit"  profe_id="0" class="button_ver_mas" onclick="showProfe(this)">Ver más</button>
     </div>
   </div>
+  </form>
 <?php } ?>

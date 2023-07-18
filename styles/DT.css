@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 #DT{
     display: flex;
     flex-direction: row;
@@ -8,6 +7,7 @@
     background-color: #302C42;
     justify-content: flex-start;
     height: 100vh;
+    width: 100vw;
 }
 
 #DT-titulo{
@@ -31,8 +31,8 @@
     right: 13%;
     transform: translate(-10%,-50%);
     width: 50%;
-    text-align: left;
-    font-size: 2em;
+    text-align: center;
+    font-size: 2vw;
     width: 50ch;
     animation-name: descripcion;
     animation-duration: 2s;
@@ -42,7 +42,7 @@
 #DT-descripcion>img{
     z-index: 0;
     width: 100vw;
-    height: 70%;
+    height: 100vh;
 }
 
 .animated-text {
@@ -77,63 +77,37 @@
 }
 
 /* Estilos para pantallas medianas */
-/* Estilos para pantallas medianas */
-@media screen and (max-width: 768px) {
-    #DT{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-    #DT-titulo {
-        width:100% ;
-        text-align: center;
-        font-size: 3.8em;
-        position: relative; /* Corregido */
+@media (max-width:1000px){
+    #DT-titulo{
+        font-size: 15vw;
     }
 
-    #DT-descripcion::after {
-      font-size: 1.5em;
-      content: "Encuentra información de profesores: horarios, especialidades, cursos, investigación y proyectos.";
-      position: relative;
-      top: 100%;
-      right: -1%;
-      width: 50%;
-      text-align: left;
-      width: 25ch;
-      font-weight: lighter;
-      padding-top: 10px;
+    #DT-descripcion #af{
+        font-size: 4vw;
+        left: 12%;
+        width: 35ch;
     }
 
-    #DT-descripcion > img {
-      width: 0%;
-      height: 0%;
+    #DT-descripcion>img{
+        height: 80vh;
     }
 
-    .animated-text br {
-        display: none;
+    @keyframes descripcion {
+        0%{
+            opacity: 0;
+            right: -60%;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 1;
+            right:-8%;
+        }
     }
-}      
+  
+}
   
 /* Estilos para pantallas pequeñas */
-@media screen and (max-width: 480px) {
-    #DT{
-        display: flex;
-        flex-direction: column;
-    }
-    #DT-titulo {
-        font-size: 2em;
-        position: sticky; /* Corregido */
-    }
-
-    #DT-descripcion::after {
-      font-size: 1em;
-      position: static; /* Corregido */
-    }
-
-    #DT-descripcion > img {
-      width: 0%;
-      height: 0%;
-    }
-}
 
   

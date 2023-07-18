@@ -1,42 +1,104 @@
 .navbar {
-    top: 0;
-    background-color: #202020;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
-    opacity: 1;
-  }
-#logo{
-    text-align: left;
-    padding-left: 10px;
+  top: 0;
+  background-color: #202020;
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+  z-index: 9999;
+  opacity: 1;
 }
- .navbar a{
-    text-align: right;
-    line-height: normal;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    padding-right: 9px;
-    text-decoration: none;
-    padding: 9px;
+#logo{
+  text-align: left;
+  padding-left: 10px;
+}
+.navbar a{
+  text-align: right;
+  line-height: normal;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  padding-right: 9px;
+  text-decoration: none;
+  padding: 9px;
 
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  opacity: 0.5;
+  margin: 10px;
+}
+
+.arrow{
+  width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid white;
+    padding-left: 10px;
+    transform: rotate(0deg);
+}
+
+.burger {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #f9f9f9;
+  margin: 0.5vw 4vw;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.menu-options {
+  display: none; /* Oculta las opciones por defecto */
+  position: absolute;
+  background-color: #333;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 99999;
+  right:2%;
+  margin-top: 38vh;
+}
+
+.menu-options.active {
+  display: block; /* Muestra las opciones cuando se agrega la clase "active" */
+  position: fixed;
+}
+
+.menu-options a {
+  display: block;
+  color: #F4F4F4;
+  padding: 10px 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.menu-options a:hover {
+  background-color: #837AAF;
+  padding: 5%;
+  font-weight: bold;
+  color:#F4F4F4;
+}
+
+@media (max-width:500px) {
+  #logo{
+    width: 50%;
   }
-
-  .navbar a:hover {
-    background-color: #ddd;
-    color: black;
-    opacity: 0.5;
-    margin: 10px;
-  }
-
-  .arrow{
-    width: 0;
-      height: 0;
-      border-top: 50px solid transparent;
-      border-bottom: 50px solid transparent;
-      border-left: 50px solid white;
-      padding-left: 10px;
-      transform: rotate(0deg);
-  }
-
+}
